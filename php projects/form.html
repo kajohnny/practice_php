@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Generation</title>    
+  </head>
+  <body>
+
+    <form action="results.php" method="post">
+
+      <label for="id"> Identification Number </label>
+      <input type="number" name="id" id="id" required placeholder="ID">
+      <br><br>
+      <label for="name"> Name </label>
+      <input type="text" name="name" id="name" required placeholder="userName">
+      <br><br>
+      <label for="password"> Password </label>
+      <input type="password" name="password" id="password" required placeholder="Password">
+      <br><br>
+      <label for="year"> Year of Birth </label>
+      <input type="number" name="year" id="year" required min="1990" max="2023" placeholder="YOB">
+      <br><br>
+      <label for="gender"> Gender </label>
+      <br><br>
+      <label for="male"> Male </label>
+      <input type="radio" name="gender" id="male" value="m">
+      <label for="female"> Female </label>
+      <input type="radio" name="gender" id="female" value="f">
+      <label for="transgender"> Trans-gender </label>
+      <input type="radio" name="gender" id="transgender" value="t">
+      <label for="notPreferring"> Prefer Not to Say </label>
+      <input type="radio" name="gender" id="notPreferring" value="p">
+      <br><br>
+      <label for="region"> Region </label>
+      <br><br>
+      <label for="coast"> Coast Region</label>
+      <input type="checkbox" name="region" id="coast" value="c">
+      <br><br>
+      <label for="lake"> Lake Region </label>
+      <input type="checkbox" name="region" id="lake" value="l">
+      <br><br>
+      <label for="western"> Western Region </label>
+      <input type="checkbox" name="region" id="western" value="w">
+      <br><br>
+      <label for="Eastern"> Eastern Region </label>
+      <input type="checkbox" name="region" id="eastern" value="e">
+      <br><br>
+      <label for="northeastern"> North Eastern Region </label>
+      <input type="checkbox" name="region" id="northeastern" value="n">
+      <br><br>
+      <label for="central"> Central Region </label>
+      <input type="checkbox" name="region" id="central" value="c0">
+      <br><br>
+      <label for="riftvalley"> Rift Valley Region </label>
+      <input type="checkbox" name="region" id="riftvalley" value="r">
+      <br><br>
+      <label for="nairobi"> Nairobi Region </label>
+      <input type="checkbox" name="region" id="nairobi" value="n0">
+      <br><br>
+      <label for="email"> Email Address </label>
+      <input type="email" name="email" id="email" required placeholder="Email Address">
+      <br><br>
+      <button type="reset"> Clear </button>
+      <button type="submit"> Submit </button>
+    </form>
+
+  </body>
+</html>
